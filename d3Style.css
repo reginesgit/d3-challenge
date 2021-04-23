@@ -26,6 +26,7 @@
 /* font size dependent on radius, see app.js */
 .stateText {
   font-family: sans-serif;
+  font-size: 12px;
   fill: #fff;
   text-anchor: middle;
 }
@@ -38,6 +39,20 @@
 .chart {
   display: block;
   margin: 0;
+}
+
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 60px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #551aaf;
+  border: 0;
+  border-radius: 10px;
 }
 
 .d3-tip {
